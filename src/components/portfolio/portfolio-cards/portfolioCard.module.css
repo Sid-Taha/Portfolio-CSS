@@ -1,0 +1,30 @@
+.card{
+  display: flex;
+  flex-direction: column;
+}
+
+.cardImage{
+  height: 407px;
+  background-color: var(--background-gray);
+  border-radius: 24px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+
+.cardText{
+  height: auto;
+  margin-top: 24px;
+  color: var(--logo-color);
+}
+
+.img{
+  transition: all 0.6s ease-in-out;
+}
+
+.img:hover{
+  rotate: -2deg;
+  scale: 1.05;
+}
+

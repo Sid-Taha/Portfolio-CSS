@@ -1,0 +1,9 @@
+.aboutBottomImage{
+  width: 100%;
+  background-color: var(--background-gray);
+  padding: 1.25rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  align-items: center;
+}

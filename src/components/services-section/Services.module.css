@@ -1,0 +1,31 @@
+.services{
+  width: 100%;
+  background-color: var(--background-gray);
+  text-align: center;
+  padding: 9.625rem 2.5rem 10rem 2.5rem;
+} 
+
+.services h1{
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.services span{
+  color: var(--logo-color);
+}
+
+.services p{
+  font-size: 1.0456rem;
+  line-height: 1.75rem;
+  margin-bottom: 5rem;
+}
+
+.servicesCardDiv{
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+

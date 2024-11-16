@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --background-black : #0A0908;
+  --background-gray : #1A1A1A;
+  --background-light-gray: #222222;
+  --logo-color: #A9927D;
+  --button-color: #5E503F;
+  --hover-button-color: #7D674C;
+}
+
+body{
+  color: white;
+}

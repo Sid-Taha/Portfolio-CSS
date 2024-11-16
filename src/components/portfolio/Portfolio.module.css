@@ -1,0 +1,30 @@
+.portfolio{
+  width: 100%;
+  background-color: var(--background-black);
+  text-align: center;
+  padding: 9rem 32px;
+}
+
+.portfolio h1{
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio span{
+  color: var(--logo-color);
+}
+
+.portfolio p{
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 6rem;
+}
+
+.myWork{
+  width: 100%;
+  display: grid;
+  gap: 95px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
