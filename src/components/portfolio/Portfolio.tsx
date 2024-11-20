@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './Portfolio.module.css'
 import { caveatFont, interFont } from '@/font'
-import Image from 'next/image'
 import PortfolioCard from './portfolio-cards/PortfolioCard'
 
 function Portfolio() {

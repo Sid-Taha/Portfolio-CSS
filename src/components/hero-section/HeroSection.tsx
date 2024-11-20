@@ -16,7 +16,7 @@ function HeroSection() {
   return (
     <>
       <section className={`${styles.hero} ${interFont.className}`}>
-        <h1>Hey! I'm {" "}
+        <h1>Hey! I&apos;m {" "}
           <span>Taha Ahmed</span> 
           {" "}
 
