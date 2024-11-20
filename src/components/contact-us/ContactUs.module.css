@@ -57,7 +57,6 @@
 
 .contactRightDiv{
   width: 650px;
-  
 }
 
 .contactRightDiv form{
@@ -96,3 +95,26 @@
   }
 }
 
+
+@media (max-width: 768px){
+  .contactUs{
+    padding: 160px 32px 160px 32px;
+  }
+  
+  .contactUsBottomDiv{
+    flex-direction: column;
+    gap: 120px;
+  }
+}
+
+
+@media (max-width: 390px){
+  .contactRightDiv{
+    width: 100%;
+  }
+
+  .topInputDiv{
+    flex-direction: column;
+    gap: 25px;
+  }
+}

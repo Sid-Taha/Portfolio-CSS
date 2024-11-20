@@ -30,3 +30,16 @@
 .card span{
   color: var(--logo-color);
 }
+
+
+@media (max-width: 768px){
+  .cards{
+    width: calc((100% - 32px) / 2);
+  }
+}
+
+@media (max-width: 390px){
+  .cards{
+    width: calc((100% - 32px) / 1);
+  }
+}

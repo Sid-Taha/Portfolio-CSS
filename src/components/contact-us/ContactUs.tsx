@@ -37,7 +37,7 @@ function ContactUs() {
   
   return (
     <>
-      <section className={`${styles.contactUs} ${interFont.className} `}>
+      <section id='contact' className={`${styles.contactUs} ${interFont.className} `}>
         <h1 className={caveatFont.className}>
           <span>C</span>ontact {" "}
           <span>M</span>e

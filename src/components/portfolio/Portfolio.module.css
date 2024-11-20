@@ -28,3 +28,18 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+
+@media (max-width: 768px){
+  .myWork{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 112px;
+  }
+}
+
+
+@media (max-width: 390px){
+  .myWork{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+}

@@ -24,3 +24,9 @@
   display: flex;
 }
 
+@media (max-width: 390px){
+  .testimonials{
+    padding: 160px 16px 160px 16px;
+  }
+}
+

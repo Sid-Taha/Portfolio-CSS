@@ -9,7 +9,7 @@ import {motion} from "framer-motion"
 function AboutSection() {
   return (
     <>
-      <section className={styles.about}>
+      <section id='about' className={styles.about}>
         <motion.div className={styles.aboutLeftDiv}
           initial={{opacity:0, x: -100}}
           whileInView={{opacity:1, x:0}}
@@ -27,10 +27,10 @@ function AboutSection() {
 
         <motion.div className={styles.aboutRightDiv}
           initial={{opacity: 0, x: 100}}
-          whileInView={{opacity:1, x:50}}
+          whileInView={{opacity:1, x:0}}
           transition={{duration: 2, type: "spring"}}
         >
-          <Image src={"/profile.png"} alt={"profile picture"} width={400} height={400}></Image>
+          <Image src={"/profile.png"} alt={"profile picture"} width={400} height={400} className={styles.img}></Image>
         </motion.div>
       </section>
     </>

@@ -28,4 +28,21 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+@media (max-width: 768px){
+  .servicesCardDiv{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 390px){
+  .servicesCardDiv{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .services{
+    padding: 9.625rem .5rem 10rem .5rem;
+  }
+}
+
 

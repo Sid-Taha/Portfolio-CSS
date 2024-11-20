@@ -11,6 +11,8 @@
   --hover-button-color: #7D674C;
 }
 
-body{
+html, body{
   color: white;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }

@@ -34,3 +34,33 @@
 .aboutRightDiv{
   margin-right: 11.875rem;
 }
+
+
+@media (max-width: 768px){
+  .about{
+    padding: 3.75rem 2.5rem 10rem 2.5rem;
+  }
+
+  .aboutLeftDiv{
+    width: 45.182%;
+  }
+
+  .aboutRightDiv{
+    margin-right: 0px;
+  }
+  
+  .img{
+    width: 350px;
+  }
+}
+
+@media (max-width: 390px){
+  .about{
+    padding: 10rem 0rem;
+    flex-direction: column;
+  }
+
+  .aboutLeftDiv{
+    width: 90%;
+  }
+}

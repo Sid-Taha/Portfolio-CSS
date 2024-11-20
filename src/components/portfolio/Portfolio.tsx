@@ -7,7 +7,7 @@ import PortfolioCard from './portfolio-cards/PortfolioCard'
 function Portfolio() {
   return (
     <>
-      <section className={styles.portfolio}>
+      <section id='portfolio' className={styles.portfolio}>
         <h1 className={`${caveatFont.className}`}>
           <span>M</span>y {" "}
           <span>L</span>ast {" "} 
