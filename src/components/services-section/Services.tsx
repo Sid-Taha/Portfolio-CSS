@@ -14,7 +14,7 @@ function Services() {
 
         <p className={interFont.className}>
           I help clients bring their ideas to life through custom design and
-          development solutions. Whether it's building a responsive website,
+          development solutions. Whether its building a responsive website,
           crafting a unique brand identity, or optimizing user experience,
           <br />I focus on creating impactful digital experiences that drive
           results.
