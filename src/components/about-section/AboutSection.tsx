@@ -16,12 +16,10 @@ function AboutSection() {
           transition={{duration: 2, type: "spring"}}
         >
           <h1 className={caveatFont.className}>Taha Ahmed</h1>
-          <p className={caveatFont.className}>Freelance Web Developer</p>
-          <h2 className={`${styles.detailsText} ${interFont.className}`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore,
-          dolorum odio magni possimus corrupti molestiae labore voluptatum
-          ut autem deleniti facilis tempora commodi dolores debitis repellendus
-          excepturi nisi? Quisquam suscipit iste facere molestiae saepe
-          voluptates.</h2>
+          <p className={caveatFont.className}>Web Developer</p>
+          <h2 className={`${styles.detailsText} ${interFont.className}`}>  Passionate and skilled frontend developer with a strong eye for design and a deep love for clean, responsive, and user-friendly interfaces.
+  I specialize in turning complex problems into elegant solutions with modern web technologies.
+  Always pushing boundaries to craft seamless digital experiences.</h2>
           <Button text={"Contact Me"}/>
         </motion.div>
 

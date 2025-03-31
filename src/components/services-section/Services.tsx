@@ -13,14 +13,15 @@ function Services() {
         </h1>
 
         <p className={interFont.className}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          deserunt laudantium officia fuga ipsam quasi corrupti in
-          <br />
-          numquam dolor libero explicabo, inventore aperiam, commodi et!
+          I help clients bring their ideas to life through custom design and
+          development solutions. Whether it's building a responsive website,
+          crafting a unique brand identity, or optimizing user experience,
+          <br />I focus on creating impactful digital experiences that drive
+          results.
         </p>
 
         <div className={styles.servicesCardDiv}>
-          <ServicesCard/>
+          <ServicesCard />
         </div>
       </section>
     </>

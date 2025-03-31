@@ -31,15 +31,23 @@ function AboutBottomImage() {
       >
         <motion.div variants={itemVariants}><Image src={"/html.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
         <motion.div variants={itemVariants}><Image src={"/css.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
+        <motion.div variants={itemVariants}><Image src={"/javascript.png"} alt={"html picture"} width={70} height={70}></Image></motion.div>
+        <motion.div variants={itemVariants}><Image src={"/node.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
         <motion.div variants={itemVariants}><Image src={"/typescript.png"} alt={"html picture"} width={70} height={70}></Image></motion.div>
+        <motion.div variants={itemVariants}><Image src={"/next.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
+        <motion.div variants={itemVariants}><Image src={"/react.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
         <motion.div variants={itemVariants}><Image src={"/git.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
         <motion.div variants={itemVariants}><Image src={"/figma.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
-        <motion.div variants={itemVariants}><Image src={"/react.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
-        <motion.div variants={itemVariants}><Image src={"/node.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
-        <motion.div variants={itemVariants}><Image src={"/next.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
+        <motion.div variants={itemVariants}><Image src={"/python.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
+        <motion.div variants={itemVariants}><Image src={"/streamlit.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
+        <motion.div variants={itemVariants}><Image src={"/fastapi.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
+        <motion.div variants={itemVariants}><Image src={"/Postgresql.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
+        <motion.div variants={itemVariants}><Image src={"/docker.png"} alt={"html picture"} width={96} height={96}></Image></motion.div>
       </motion.section>
     </>
   )
+
+  
 }
 
 export default AboutBottomImage

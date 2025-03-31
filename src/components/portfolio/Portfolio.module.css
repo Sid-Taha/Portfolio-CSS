@@ -24,7 +24,7 @@
 .myWork{
   width: 100%;
   display: grid;
-  gap: 95px;
+  gap: 110px;
   grid-template-columns: repeat(3, 1fr);
 }
 

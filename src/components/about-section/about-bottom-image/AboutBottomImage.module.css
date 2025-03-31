@@ -3,10 +3,14 @@
   background-color: var(--background-gray);
   padding: 1.25rem 5rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 4rem;
+  gap: 6rem;
   align-items: center;
 }
+
+
+
 
 @media (max-width: 768px){
   .aboutBottomImage{
